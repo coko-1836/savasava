@@ -1,0 +1,55 @@
+header {
+    h1 {
+        text-align: center;
+        padding: 1em;
+        border-bottom: 1px solid #ddd;
+        margin-bottom: 1em;
+    }
+}
+
+main {
+    margin: 1em;
+    table {
+        &#tp-table {
+            // MS DOC STYLE
+            border-collapse: collapse;
+            border-spacing: 0;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            //font-family: "Segoe UI", "Segoe UI Web (West European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+            font-size: 14px;
+            font-weight: 400;
+            color: #333;
+            line-height: 1.42857143;
+            text-align: left;
+            vertical-align: top;
+            border-top: 1px solid #ddd;
+            border-bottom: 1px solid #ddd;
+            th,
+            td {
+                padding: 8px;
+                line-height: 1.42857143;
+                vertical-align: top;
+                border-top: 1px solid #ddd;
+            }
+            th {
+                font-weight: 700;
+            }
+            tbody {
+                tr {
+                    &:nth-child(odd) {
+                        background-color: #f9f9f9;
+                    }
+                }
+            }
+        }
+    }
+}
+
+footer{
+    text-align: center;
+    padding: 1em;
+    border-top: 1px solid #ddd;
+    margin-top: 1em;
+}
